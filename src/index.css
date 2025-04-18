@@ -1,0 +1,64 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* @font-face {
+    font-family: "AvertaStd";
+    src: local("AvertaStd"),
+      url(./assets/fonts/AvertaStd-Regular/AvertaStd-Regular.ttf)
+        format("ttf"); */
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  /* } */
+
+@import url(https://db.onlinewebfonts.com/c/19b8f54eb1f074fb01efb1c4f02e9623?family=AvertaStd-Regular);
+@import url(https://db.onlinewebfonts.com/c/aef2da2daa6e15be44ff1a2706cc61a1?family=AvertaStd-Semibold);
+@import url(https://db.onlinewebfonts.com/c/b5d2107c7c6e775b13169eb51d8970c1?family=AvertaStd-Light);
+
+body,
+html {
+  font-family: "AvertaStd-Regular";
+  margin: 0;
+  padding: 0;
+  /* color: rgba(177, 82, 152, 0.561); */
+}
+
+.scrollbar {
+    scrollbar-width: 0px !important;
+}
+
+.dc {
+  color: rgba(9, 8, 8, 0.58);
+}
+.Certificate {
+  position: relative;
+  width: 842px;
+  height: 595px;
+  overflow: scroll;
+}
+
+.Certificate img{
+ width: 100%;
+}
+.Certificate .name{
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transition: (-50%, -50%);
+  font-size: 40px;
+}
+.Certificate .title{
+  position: absolute;
+  top: 55%;
+  font-size: 45px;
+  left: 35%;
+}
+.Certificate .date{
+  position: absolute;
+  top: 77%;
+  font-size: 20px;
+  right: 27%;
+  transition: (-50%, -50%);
+}
+
+
